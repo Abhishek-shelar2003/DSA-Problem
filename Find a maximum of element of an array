@@ -1,0 +1,7 @@
+def findMax(arr):
+    max=0
+    for i in range(len(arr)):
+        if arr[i]>max:
+            max=arr[i]
+    return max
+findMax([10,20,30,45,652,652])
